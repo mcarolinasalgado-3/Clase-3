@@ -1,0 +1,174 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*HEADER*/
+header {
+    color: #FFD85F;
+    background-color: #202b22;
+    background-image: url(../img/fondo-portada.jpg);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 2rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*ruta de especificidad*/
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 0.8rem;
+    justify-content: space-evenly;
+}
+
+header nav ul li a {
+    color: #F2F2F2;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.tarjeta {
+    background-color: #202b22;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.tarjeta h2 {
+    font-size: 1.5rem;
+}
+
+.tarjeta p {
+    font-size: 1.2rem;
+}
+
+
+/*MAIN*/
+main {
+    color: #FFD85F;
+    background-color: #202b22;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.25rem;
+    margin: 1.25rem;
+}
+
+h1 {
+    color: #FFD85F;
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
+/*FOOTER*/
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 0.8rem;
+    justify-content: space-evenly;
+}
+
+.texto-footer {
+    padding: 1rem 2rem;
+}
+
+
+/*PERSONALIZACION DE COLORES*/
+body {
+    background-color: #202b22;
+}
+
+footer {
+    background-color: #515151;
+}
+
+h2 {
+    color: #FFD85F;
+    font-size: 2rem;
+}
+
+.texto-imagenes {
+    color: #9eb8a3;
+}
+
+.texto-footer {
+    color: #cccccc;
+}
+
+/*PERSONALIZACION DE FUENTES*/
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*PERSONALIZACION DE IMAGEN*/
+
+.header-eventos {
+    background-image: url(../img/fondo-eventos.png);
+}
+
+.tarjeta img {
+    width: 70%;
+    height: 350px;
+    object-fit: cover;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+/* PERSONALIZACIÓN DEL FORM*/
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 1.25rem;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 1.25rem;
+    border: none;
+}
+
+form button {
+    align-self: flex-start;
+    padding: 0.6rem 0.6rem;
+}
